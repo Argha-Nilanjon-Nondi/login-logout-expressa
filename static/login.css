@@ -1,0 +1,42 @@
+.custom-login-box {
+    height: 100vh;
+}
+
+.custom-login-container {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 1rem;
+    height: 60%;
+}
+
+.custom-error-container {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 1rem;
+    height: 60%;
+}
+
+.form-control {
+    font-size: 1.6rem;
+}
+
+.fa-user-lock {
+    font-size: 17rem !important;
+    margin-right: 3rem !important;
+}
+
+@media screen and (max-width:1000px) {
+    .custom-login-container {
+        height: auto;
+    }
+    .custom-login-aside {
+        display: none !important;
+    }
+    .custom-login-formcontainer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .form-control {
+        font-size: 1.2rem;
+    }
+}
